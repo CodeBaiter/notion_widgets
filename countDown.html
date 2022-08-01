@@ -103,14 +103,14 @@ body{
 </body>
 <script>
     const year = new Date().getFullYear();
-const myDate = new Date('Oct 15, 2024 00:00:00');
+const myDate = new Date('Aug 8, 2022 00:00:00');
 console.log(myDate);
 
 // countdown
 let timer = setInterval(function() {
 
   // get today's date
-  const today = new Date().getTime();
+  const today = new Date('Aug 1, 2022').getTime('13:11:00');
 
   // get the difference
   const diff = myDate - today;
